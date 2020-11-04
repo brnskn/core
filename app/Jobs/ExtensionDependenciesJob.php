@@ -23,9 +23,9 @@ class ExtensionDependenciesJob implements ShouldQueue
     {
         $this->extension = $extension;
         $this->dependencies = $dependencies;
-        $this->extension->update([
-            "status" => "0"
-        ]);
+//        $this->extension->update([
+//            "status" => "0"
+//        ]);
     }
 
     /**
